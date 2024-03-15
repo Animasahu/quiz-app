@@ -1,0 +1,70 @@
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.Menu , .Quiz , .Endscreen{
+  width:500px;
+  height: 400px;
+  border-radius: 10px;
+  padding:10px;
+  background-color:rgba(240, 236, 236, 0.927);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.Menu{
+  background-image:url("https://img.freepik.com/free-vector/quiz-word-concept_23-2147844150.jpg?w=740&t=st=1695722441~exp=1695723041~hmac=9c4095ac7cb2465167f585e6daf79e5a4fdb969ce0d824cf0a21d745217ced27");
+  /* background-image: url("https://www.shutterstock.com/shutterstock/photos/1106397422/display_1500/stock-photo-soft-focus-hand-high-school-or-university-student-in-casual-holding-pencil-writing-on-paper-answer-1106397422.jpg"); */
+}
+.Endscreen{
+  background-image: url("https://live.staticflickr.com/1339/954224775_4c451fefb7_z.jpg");
+}
+
+.Menu button , .Quiz button , .Endscreen button{ 
+  width:300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius:12px;
+  font-size: 20px;
+  cursor:pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  
+}
+.Endscreen button:hover , .Menu button:hover ,.Quiz button:hover{
+  background-color: rgb(240, 209, 209);
+  color:black;
+}
+
+.Quiz button:active , .Menu button:active , .Endscreen butoon:active{
+  background-color: white;
+  border-color: rgb(222, 125, 141);
+}
+
+.Menu, .Quiz, .Endscreen{
+  color: rgb(12, 11, 11);
+}
+
+.Options{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+#nextquestion{
+  width:200px;
+}
+
